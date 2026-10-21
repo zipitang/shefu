@@ -1,0 +1,349 @@
+[
+ {
+  "id": "chara_白樰",
+  "name": "白樰",
+  "identity": "凡",
+  "title": "草医灵巫",
+  "color": "灵草绿",
+  "visual": "蓑衣、药箱、草药、绿色灵液",
+  "intro": "背药箱走山野的草医，衣上总有新采的药香。她不争杀伐，只求同袍不死。",
+  "renCard": "凡人",
+  "art": "res://assets/chara/008.webp",
+  "thumb": "res://assets/chara/008_t.webp",
+  "skill": {
+   "name": "百草回春",
+   "desc": "冷却 2 回合。弃 1 张手牌，为己方【人】恢复 3 点【气】。",
+   "cd": 2,
+   "effects": [
+    {
+     "type": "discard_self",
+     "value": 1
+    },
+    {
+     "type": "heal_qi",
+     "target": "self_ren",
+     "value": 3
+    }
+   ]
+  },
+  "passive": null
+ },
+ {
+  "id": "chara_马曜",
+  "name": "马曜",
+  "identity": "道家",
+  "title": "紫电狂道",
+  "color": "紫电紫",
+  "visual": "桃木剑、紫电、金色符箓",
+  "intro": "持桃木剑的狂道。符箓未出，紫电先至。",
+  "renCard": "正一道士",
+  "art": "res://assets/chara/011.webp",
+  "thumb": "res://assets/chara/011_t.webp",
+  "skill": {
+   "name": "紫电诛邪",
+   "desc": "冷却 3 回合。对对方 1 张【地】卡造成 2 点伤害并使其下回合无法攻击。",
+   "cd": 3,
+   "effects": [
+    {
+     "type": "damage_board",
+     "side": "enemy",
+     "value": 2,
+     "filter": "地"
+    },
+    {
+     "type": "freeze_board",
+     "side": "enemy",
+     "filter": "地",
+     "turns": 1
+    }
+   ]
+  },
+  "passive": null
+ },
+ {
+  "id": "chara_朔弥",
+  "name": "朔弥",
+  "identity": "神天大照",
+  "title": "日轮神使",
+  "color": "日轮金",
+  "visual": "日轮、金液、白袍",
+  "intro": "承日轮之光的白袍神使，一言可令众神加护。",
+  "renCard": "阴阳师",
+  "art": "res://assets/chara/005.webp",
+  "thumb": "res://assets/chara/005_t.webp",
+  "skill": {
+   "name": "日轮照世",
+   "desc": "冷却 3 回合。己方所有【天】+1【祇】，并对对方【人】造成 1 点【气】伤害。",
+   "cd": 3,
+   "effects": [
+    {
+     "type": "buff_tian_hp_all",
+     "value": 1
+    },
+    {
+     "type": "damage_qi",
+     "target": "enemy_ren",
+     "value": 1
+    }
+   ]
+  },
+  "passive": null
+ },
+ {
+  "id": "chara_楚伞",
+  "name": "楚伞",
+  "identity": "妖",
+  "title": "青渊战魂",
+  "color": "青渊蓝",
+  "visual": "白色机甲、巨剑、青色灵液",
+  "intro": "披白色甲胄的战魂，巨剑过处，青渊翻涌。",
+  "renCard": "巫女",
+  "art": "res://assets/chara/006.webp",
+  "thumb": "res://assets/chara/006_t.webp",
+  "skill": {
+   "name": "青渊斩",
+   "desc": "冷却 2 回合。对对方场上 1 张卡造成 3 点伤害（无视克制关系）。",
+   "cd": 2,
+   "effects": [
+    {
+     "type": "damage_board",
+     "side": "enemy",
+     "value": 3,
+     "ignore_counter": true
+    }
+   ]
+  },
+  "passive": null
+ },
+ {
+  "id": "chara_阿迪亚",
+  "name": "阿迪亚",
+  "identity": "藏佛",
+  "title": "骷髅密行者",
+  "color": "焰骨橙",
+  "visual": "骷髅兜帽、十字锡杖、橙色火焰",
+  "intro": "兜帽下只见骷髅，锡杖所指，橙焰自骨而生。",
+  "renCard": "法师",
+  "art": "res://assets/chara/009.webp",
+  "thumb": "res://assets/chara/009_t.webp",
+  "skill": {
+   "name": "焰骨焚身",
+   "desc": "冷却 3 回合。牺牲己方 1 张【地】卡，对对方【人】造成 3 点【气】伤害。",
+   "cd": 3,
+   "effects": [
+    {
+     "type": "sacrifice_board",
+     "side": "self",
+     "filter": "地",
+     "value": 1
+    },
+    {
+     "type": "damage_qi",
+     "target": "enemy_ren",
+     "value": 3
+    }
+   ]
+  },
+  "passive": null
+ },
+ {
+  "id": "chara_小乔儿",
+  "name": "小乔儿",
+  "identity": "道家",
+  "title": "血线剑娘",
+  "color": "血线红",
+  "visual": "红线飞剑、红色蝴蝶结、符箓",
+  "intro": "系红蝶结的剑娘，赤线一出，飞剑自来。",
+  "renCard": "正一道士",
+  "art": "res://assets/chara/003.webp",
+  "thumb": "res://assets/chara/003_t.webp",
+  "skill": {
+   "name": "红线飞剑",
+   "desc": "冷却 2 回合。对对方 1 张卡造成 2 点伤害；若将其拔除则己方抽 1 张牌。",
+   "cd": 2,
+   "effects": [
+    {
+     "type": "damage_board",
+     "side": "enemy",
+     "value": 2,
+     "draw_on_kill": 1
+    }
+   ]
+  },
+  "passive": null
+ },
+ {
+  "id": "chara_唐森",
+  "name": "唐森",
+  "identity": "藏佛",
+  "title": "莲印密行者",
+  "color": "莲印粉",
+  "visual": "额头莲花、环形锡杖、粉色灵液",
+  "intro": "额生莲印的密行者，粉莲一开，便是庇护。",
+  "renCard": "法师",
+  "art": "res://assets/chara/001.webp",
+  "thumb": "res://assets/chara/001_t.webp",
+  "skill": {
+   "name": "莲印庇护",
+   "desc": "冷却 2 回合。为己方 1 张场上【天】恢复 2 点【祇】。",
+   "cd": 2,
+   "effects": [
+    {
+     "type": "heal_board",
+     "side": "self",
+     "filter": "天",
+     "value": 2
+    }
+   ]
+  },
+  "passive": null
+ },
+ {
+  "id": "chara_白店小二",
+  "name": "白店小二",
+  "identity": "凡",
+  "title": "茶壶剑客",
+  "color": "青茶碧",
+  "visual": "紫铜茶壶剑、茶盘、青色灵液",
+  "intro": "跑堂的伙计，茶壶里装的可不全是茶。",
+  "renCard": "凡人",
+  "art": "res://assets/chara/004.webp",
+  "thumb": "res://assets/chara/004_t.webp",
+  "skill": {
+   "name": "一壶浊酒",
+   "desc": "被动：每回合结束额外获得 2 点【财】。主动（冷却 3 回合）：弃 1 张牌换 3 点【财】。",
+   "cd": 3,
+   "effects": [
+    {
+     "type": "discard_self",
+     "value": 1
+    },
+    {
+     "type": "gain_res",
+     "res": "wealth",
+     "value": 3
+    }
+   ]
+  },
+  "passive": {
+   "name": "茶壶聚宝",
+   "desc": "每回合结束额外获得 2 点【财】。",
+   "effects": [
+    {
+     "type": "aura_wealth",
+     "value": 2
+    }
+   ]
+  }
+ },
+ {
+  "id": "chara_青蘅",
+  "name": "青蘅",
+  "identity": "妖",
+  "title": "竹筒巫女",
+  "color": "青蘅绿",
+  "visual": "竹筒腰带、绿液、金属兽首",
+  "intro": "腰悬竹筒的巫女，筒中蛊虫比刀更近人。",
+  "renCard": "巫女",
+  "art": "res://assets/chara/010.webp",
+  "thumb": "res://assets/chara/010_t.webp",
+  "skill": {
+   "name": "竹筒蛊",
+   "desc": "冷却 2 回合。随机使对方 1 张手牌被弃置。",
+   "cd": 2,
+   "effects": [
+    {
+     "type": "discard_enemy",
+     "value": 1
+    }
+   ]
+  },
+  "passive": null
+ },
+ {
+  "id": "chara_吉马卓玛",
+  "name": "吉马卓玛",
+  "identity": "藏佛",
+  "title": "转经少女",
+  "color": "卓玛青",
+  "visual": "转经筒、绿松石、白色藏袍",
+  "intro": "转动经筒的少女，一步一经，一念一护。",
+  "renCard": "法师",
+  "art": "res://assets/chara/000.webp",
+  "thumb": "res://assets/chara/000_t.webp",
+  "skill": {
+   "name": "转经祈福",
+   "desc": "冷却 3 回合。获得 1 张【护法金刚】，己方【人】+2 点【气】。",
+   "cd": 3,
+   "effects": [
+    {
+     "type": "grant_card_tag",
+     "tag": "护法金刚",
+     "value": 1
+    },
+    {
+     "type": "heal_qi",
+     "target": "self_ren",
+     "value": 2
+    }
+   ]
+  },
+  "passive": null
+ },
+ {
+  "id": "chara_孟谢菲",
+  "name": "孟谢菲",
+  "identity": "仙",
+  "title": "谪仙白狐",
+  "color": "流云紫",
+  "visual": "折扇、九尾、紫色灵液",
+  "intro": "折扇半掩的谪仙，九尾一现，人心自失。",
+  "renCard": "阴阳师",
+  "art": "res://assets/chara/002.webp",
+  "thumb": "res://assets/chara/002_t.webp",
+  "skill": {
+   "name": "九尾惑心",
+   "desc": "冷却 3 回合。随机获得对方 1 张手牌，对方补抽 1 张。",
+   "cd": 3,
+   "effects": [
+    {
+     "type": "steal_hand",
+     "value": 1
+    },
+    {
+     "type": "draw",
+     "target": "enemy",
+     "value": 1
+    }
+   ]
+  },
+  "passive": null
+ },
+ {
+  "id": "chara_玄澈",
+  "name": "玄澈",
+  "identity": "道家",
+  "title": "阵道天师",
+  "color": "玄阵青",
+  "visual": "脚下法阵、阵旗、青色灵液",
+  "intro": "脚下自生法阵的天师，阵旗未落，万魔已困。",
+  "renCard": "正一道士",
+  "art": "res://assets/chara/007.webp",
+  "thumb": "res://assets/chara/007_t.webp",
+  "skill": {
+   "name": "玄阵封魔",
+   "desc": "冷却 3 回合。对方所有【地】卡下回合无法对【人】发起攻击。",
+   "cd": 3,
+   "effects": [
+    {
+     "type": "freeze_board",
+     "side": "enemy",
+     "filter": "地",
+     "turns": 1,
+     "block_qi": true
+    }
+   ]
+  },
+  "passive": null
+ }
+]

@@ -1,0 +1,128 @@
+{
+ "qiMax": 15,
+ "wealthCurve": [
+  3,
+  3,
+  4,
+  4,
+  5,
+  5,
+  6,
+  6,
+  7,
+  7,
+  8,
+  8,
+  9,
+  9,
+  10
+ ],
+ "wealthCurveNote": "第 N 回合结束获得 curve[N-1] 点【财】，逐回合累加；超出长度后取最后一个值。",
+ "freeRefreshPerTurn": 1,
+ "refreshCostLadder": [
+  1,
+  2,
+  3
+ ],
+ "buyCost": 3,
+ "draftCount": 3,
+ "draftPerTurn": 1,
+ "draftFreePerTurn": 1,
+ "draftPaidCapPerTurn": 3,
+ "boardCap": {
+  "enabled": true,
+  "base": 2,
+  "perRound": 1,
+  "max": 7,
+  "note": "常规玩家可同时上场的【非道具】卡牌上限 = clamp(base + 轮数*perRound, base, max)，封顶 7。临时单位（三清铃召唤的【僵尸】）不占数额；部分技能/特殊角色通过 board_bonus 可再多上几张。"
+ },
+ "boardUnique": {
+  "enabled": true,
+  "note": "同一张卡（同一卡牌定义 id，跨阶数也算）不能同时留在自己场上。"
+ },
+ "discardGain": {
+  "wealth": 1,
+  "fa": 1,
+  "yuan": 1
+ },
+ "worshipCooldown": 3,
+ "worshipPerTurn": 1,
+ "actionsPerTurn": 2,
+ "actionsPerTurnNote": "每回合可消耗的「主动行动」次数：袭人 / 点击场上卡发动主动技能。",
+ "duelCompensation": {
+  "enabled": true,
+  "laterQi": 10,
+  "laterWealth": 2,
+  "note": "2 人局后手补偿。2026-10 技能去同质化后重扫（每组 200 局、配对种子）：0:0 先手 64.7% / 8:2 53.3% / 10:2 49.5% / 11:2 47.0% / 12:2 48.0% / 16:2 44.0% / 20:2 40.7% / 23:2 39.3%，取 10:2（49.5%，接近理想 50%）。"
+ },
+ "compensationByCount": {
+  "2": {
+   "laterQi": 10,
+   "laterWealth": 2
+  },
+  "3": {
+   "laterQi": 1,
+   "laterWealth": 2
+  },
+  "4": {
+   "laterQi": 0,
+   "laterWealth": 2
+  }
+ },
+ "diceMin": 1,
+ "diceMax": 6,
+ "fatigueStartRound": 30,
+ "fatigueStepRounds": 8,
+ "order": [
+  "东",
+  "南",
+  "西",
+  "北"
+ ],
+ "counter": {
+  "note": "攻击方 -> 防守方",
+  "天": {
+   "天": "制衡(互扣祇)",
+   "地": "克制(消灭)",
+   "人": "无法造成伤害"
+  },
+  "地": {
+   "天": "被克制(不可攻击)",
+   "地": "鬼不可攻击鬼",
+   "人": "扣气"
+  },
+  "人": {
+   "天": "不主动攻击",
+   "地": "不主动攻击",
+   "人": "—"
+  }
+ },
+ "guardianBond": {
+  "tag": "护法金刚",
+  "need": 4,
+  "reward": "降魔杵"
+ },
+ "itemDraw": {
+  "enabled": true,
+  "maxPerGame": 2,
+  "weights": {
+   "金刚钺": 1,
+   "降魔杵": 2,
+   "三清铃": 3,
+   "铜钱剑": 4,
+   "金刚镢": 5,
+   "八卦镜": 6
+  },
+  "normalCardWeight": 400,
+  "starters": [
+   "拜神",
+   "敬鬼"
+  ],
+  "note": "三选一时，普通牌 = normalCardWeight 一个大权重，道具 = 各权重之和；该道具本局已拿满 maxPerGame 次则权重归 0。"
+ },
+ "faOnKill": 1,
+ "paperCraneOnDeath": 1,
+ "shikigamiQi": 2,
+ "believerQi": 3,
+ "buddhaQiShield": 2
+}

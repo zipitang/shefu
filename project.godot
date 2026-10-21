@@ -1,0 +1,44 @@
+; Engine configuration file.
+; 《摄伏》 - Godot 4.7 项目
+
+config_version=5
+
+[application]
+
+config/name="摄伏"
+config/description="天地人三才 · 纯回合制卡牌对战"
+run/main_scene="res://scenes/Main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+CardDB="*res://scripts/core/CardDB.gd"
+Sfx="*res://scripts/ui/Sfx.gd"
+Settings="*res://scripts/GameSettings.gd"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[gui]
+
+theme/default_font_multichannel_signed_distance_field=true
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+environment/defaults/default_clear_color=Color(0.055, 0.047, 0.078, 1)
+; 【★ 画质：2D 多重采样抗锯齿】卡牌/按钮/描边全是 draw_line/draw_arc/draw_rect，
+; 在 canvas_items 拉伸下边缘会有明显锯齿（用户报的「毛刺边缘」）。
+; GL Compatibility 支持 msaa_2d；开 2x 即可显著平滑所有 2D 边缘，开销可忽略。
+anti_aliasing/quality/msaa_2d=1
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=false

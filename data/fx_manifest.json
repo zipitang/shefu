@@ -1,0 +1,186 @@
+{
+ "slash": {
+  "file": "res://assets/fx/slash.webp",
+  "frames": 8,
+  "fw": 354,
+  "fh": 232,
+  "dur": 0.62,
+  "src": "绿色剑气斩击"
+ },
+ "smash": {
+  "file": "res://assets/fx/smash.webp",
+  "frames": 6,
+  "fw": 343,
+  "fh": 324,
+  "dur": 0.62,
+  "src": "石破天惊"
+ },
+ "quake": {
+  "file": "res://assets/fx/quake.webp",
+  "frames": 8,
+  "fw": 108,
+  "fh": 198,
+  "dur": 0.62,
+  "src": "重炮坠击"
+ },
+ "fire": {
+  "file": "res://assets/fx/fire.webp",
+  "frames": 9,
+  "fw": 126,
+  "fh": 115,
+  "dur": 0.62,
+  "src": "燃烧火焰（动效）"
+ },
+ "bolt": {
+  "file": "res://assets/fx/bolt.webp",
+  "frames": 11,
+  "fw": 256,
+  "fh": 337,
+  "dur": 0.62,
+  "src": "蓝色雷点打击"
+ },
+ "freeze": {
+  "file": "res://assets/fx/freeze.webp",
+  "frames": 15,
+  "fw": 256,
+  "fh": 256,
+  "dur": 0.62,
+  "src": "蓝色冰锥爆炸"
+ },
+ "wind": {
+  "file": "res://assets/fx/wind.webp",
+  "frames": 12,
+  "fw": 128,
+  "fh": 128,
+  "dur": 0.62,
+  "src": "起风强化特效"
+ },
+ "heal": {
+  "file": "res://assets/fx/heal.webp",
+  "frames": 5,
+  "fw": 127,
+  "fh": 170,
+  "dur": 0.62,
+  "src": "恢复回血"
+ },
+ "shield": {
+  "file": "res://assets/fx/shield.webp",
+  "frames": 8,
+  "fw": 148,
+  "fh": 145,
+  "dur": 0.62,
+  "src": "透明气功护盾"
+ },
+ "purge": {
+  "file": "res://assets/fx/purge.webp",
+  "frames": 6,
+  "fw": 172,
+  "fh": 163,
+  "dur": 0.62,
+  "src": "绿色闪光暴击"
+ },
+ "poison": {
+  "file": "res://assets/fx/poison.webp",
+  "frames": 12,
+  "fw": 107,
+  "fh": 175,
+  "dur": 0.62,
+  "src": "绿色幽火"
+ },
+ "soul": {
+  "file": "res://assets/fx/soul.webp",
+  "frames": 10,
+  "fw": 128,
+  "fh": 133,
+  "dur": 0.62,
+  "src": "绿色萤火分散"
+ },
+ "moon": {
+  "file": "res://assets/fx/moon.webp",
+  "frames": 16,
+  "fw": 186,
+  "fh": 182,
+  "dur": 0.62,
+  "src": "紫色鹰眼动效"
+ },
+ "revive": {
+  "file": "res://assets/fx/revive.webp",
+  "frames": 9,
+  "fw": 125,
+  "fh": 172,
+  "dur": 0.62,
+  "src": "基督十字架复活"
+ },
+ "summon": {
+  "file": "res://assets/fx/summon.webp",
+  "frames": 10,
+  "fw": 256,
+  "fh": 153,
+  "dur": 0.62,
+  "src": "金光翅膀展翅"
+ },
+ "buff": {
+  "file": "res://assets/fx/buff.webp",
+  "frames": 6,
+  "fw": 272,
+  "fh": 272,
+  "dur": 0.62,
+  "src": "暴怒加强动态图标"
+ },
+ "seal": {
+  "file": "res://assets/fx/seal.webp",
+  "frames": 4,
+  "fw": 256,
+  "fh": 145,
+  "dur": 0.62,
+  "src": "金色瞄准"
+ },
+ "coin": {
+  "file": "res://assets/fx/coin.webp",
+  "frames": 9,
+  "fw": 56,
+  "fh": 56,
+  "dur": 0.62,
+  "src": "金币旋转"
+ },
+ "arrow": {
+  "file": "res://assets/fx/arrow.webp",
+  "frames": 8,
+  "fw": 256,
+  "fh": 344,
+  "dur": 0.62,
+  "src": "剑气坠落打击"
+ },
+ "clash": {
+  "file": "res://assets/fx/clash.webp",
+  "frames": 26,
+  "fw": 168,
+  "fh": 229,
+  "dur": 0.62,
+  "src": "彩色打击"
+ },
+ "chain": {
+  "file": "res://assets/fx/chain.webp",
+  "frames": 6,
+  "fw": 343,
+  "fh": 170,
+  "dur": 0.62,
+  "src": "紫色能量斩击"
+ },
+ "draw": {
+  "file": "res://assets/fx/draw.webp",
+  "frames": 8,
+  "fw": 128,
+  "fh": 137,
+  "dur": 0.62,
+  "src": "蓝色能量打击"
+ },
+ "roar": {
+  "file": "res://assets/fx/roar.webp",
+  "frames": 8,
+  "fw": 173,
+  "fh": 168,
+  "dur": 0.62,
+  "src": "爆炸"
+ }
+}

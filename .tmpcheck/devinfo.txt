@@ -1,0 +1,5 @@
+enabled=true
+exe=D:/mycp/Edgedownload/shefu/SheFu/build/dev/SheFuDev.exe
+feature=true
+arg=false
+profile=dev=true 不掉气=false 无冷却=false 无限财=false 无限法=false 无限源=false 无限纸鹤=false 不限场位=false 无限行动=false

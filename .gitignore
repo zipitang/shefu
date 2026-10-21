@@ -1,0 +1,18 @@
+# ---- Godot 项目通用忽略 ----
+# 导出与构建产物（838M，绝不上传）
+build/
+export.cfg
+*.translation
+
+# 截图 / 录屏（124M，非源码）
+shots/
+
+# Godot 生成的缓存
+.godot/
+.godot/**/*.import.tmp
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+*.tmp
+*.log

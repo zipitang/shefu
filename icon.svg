@@ -1,0 +1,16 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#f4d58d"/>
+      <stop offset="55%" stop-color="#8a2b3a"/>
+      <stop offset="100%" stop-color="#1b1424"/>
+    </radialGradient>
+  </defs>
+  <rect width="128" height="128" rx="22" fill="#14101c"/>
+  <circle cx="64" cy="58" r="34" fill="url(#g)"/>
+  <path d="M64 30v56M36 58h56" stroke="#f4d58d" stroke-width="3" opacity="0.55"/>
+  <path d="M64 22c10 16 26 20 26 34 0 16-12 28-26 28S38 72 38 56c0-14 16-18 26-34z"
+        fill="none" stroke="#f4d58d" stroke-width="3.2"/>
+  <text x="64" y="112" font-size="30" font-family="serif" fill="#f4d58d"
+        text-anchor="middle" font-weight="bold">摄伏</text>
+</svg>

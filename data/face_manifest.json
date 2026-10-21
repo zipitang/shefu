@@ -1,0 +1,74 @@
+[
+ {
+  "name": "吉马卓玛",
+  "art": "res://assets/chara_face/000.webp",
+  "scene": "res://assets/chara_scene/000.webp",
+  "bg": "res://assets/chara_bg/000.webp"
+ },
+ {
+  "name": "唐森",
+  "art": "res://assets/chara_face/001.webp",
+  "scene": "res://assets/chara_scene/001.webp",
+  "bg": "res://assets/chara_bg/001.webp"
+ },
+ {
+  "name": "孟谢菲",
+  "art": "res://assets/chara_face/002.webp",
+  "scene": "res://assets/chara_scene/002.webp",
+  "bg": "res://assets/chara_bg/002.webp"
+ },
+ {
+  "name": "小乔儿",
+  "art": "res://assets/chara_face/003.webp",
+  "scene": "res://assets/chara_scene/003.webp",
+  "bg": "res://assets/chara_bg/003.webp"
+ },
+ {
+  "name": "店小二",
+  "art": "res://assets/chara_face/004.webp",
+  "scene": "res://assets/chara_scene/004.webp",
+  "bg": "res://assets/chara_bg/004.webp"
+ },
+ {
+  "name": "朔弥",
+  "art": "res://assets/chara_face/005.webp",
+  "scene": "res://assets/chara_scene/005.webp",
+  "bg": "res://assets/chara_bg/005.webp"
+ },
+ {
+  "name": "楚伞",
+  "art": "res://assets/chara_face/006.webp",
+  "scene": "res://assets/chara_scene/006.webp",
+  "bg": "res://assets/chara_bg/006.webp"
+ },
+ {
+  "name": "玄澈",
+  "art": "res://assets/chara_face/007.webp",
+  "scene": "res://assets/chara_scene/007.webp",
+  "bg": "res://assets/chara_bg/007.webp"
+ },
+ {
+  "name": "白樰",
+  "art": "res://assets/chara_face/008.webp",
+  "scene": "res://assets/chara_scene/008.webp",
+  "bg": "res://assets/chara_bg/008.webp"
+ },
+ {
+  "name": "阿迪亚",
+  "art": "res://assets/chara_face/009.webp",
+  "scene": "res://assets/chara_scene/009.webp",
+  "bg": "res://assets/chara_bg/009.webp"
+ },
+ {
+  "name": "青蘅",
+  "art": "res://assets/chara_face/010.webp",
+  "scene": "res://assets/chara_scene/010.webp",
+  "bg": "res://assets/chara_bg/010.webp"
+ },
+ {
+  "name": "马曜",
+  "art": "res://assets/chara_face/011.webp",
+  "scene": "res://assets/chara_scene/011.webp",
+  "bg": "res://assets/chara_bg/011.webp"
+ }
+]

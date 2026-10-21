@@ -1,0 +1,68 @@
+[
+ {
+  "id": "ren_root_000",
+  "name": "凡人",
+  "qi": 12,
+  "art": "res://assets/ren/000.webp",
+  "thumb": "res://assets/ren/000_t.webp",
+  "upgrade": "wealth",
+  "upgradeCost": 3,
+  "upgradeQi": 2,
+  "note": "花【财】买人，提供 2 点【气】。"
+ },
+ {
+  "id": "ren_root_001",
+  "name": "巫女",
+  "qi": 12,
+  "art": "res://assets/ren/001.webp",
+  "thumb": "res://assets/ren/001_t.webp",
+  "upgrade": "wealth",
+  "upgradeCost": 3,
+  "upgradeQi": 2,
+  "note": "和凡人一样靠【财】买，提供 2 点【气】。"
+ },
+ {
+  "id": "ren_root_002",
+  "name": "正一道士",
+  "qi": 15,
+  "art": "res://assets/ren/002.webp",
+  "thumb": "res://assets/ren/002_t.webp",
+  "upgrade": "fa",
+  "upgradeCost": 3,
+  "upgradeQi": 5,
+  "note": "消耗【法】收【徒】，提供 5 点【气】。对方单位被拔除/钉死时获得少量【法】。"
+ },
+ {
+  "id": "ren_root_003",
+  "name": "法师",
+  "qi": 12,
+  "art": "res://assets/ren/003.webp",
+  "thumb": "res://assets/ren/003_t.webp",
+  "upgrade": "none",
+  "upgradeCost": 0,
+  "upgradeQi": 3,
+  "note": "无法获得【财】；靠降伏【地】单位获得【信众】，提供 3 点【气】并 +1【阿弥陀佛】。"
+ },
+ {
+  "id": "ren_root_004",
+  "name": "萨满",
+  "qi": 12,
+  "art": "res://assets/ren/004.webp",
+  "thumb": "res://assets/ren/004_t.webp",
+  "upgrade": "none",
+  "upgradeCost": 0,
+  "upgradeQi": 0,
+  "note": "不能升级【人】；无法使用【财】；每回合可从各玩家手中抢 1 张手牌（佛属性角色不可被抢）。"
+ },
+ {
+  "id": "ren_root_005",
+  "name": "阴阳师",
+  "qi": 12,
+  "art": "res://assets/ren/005.webp",
+  "thumb": "res://assets/ren/005_t.webp",
+  "upgrade": "yuan",
+  "upgradeCost": 3,
+  "upgradeQi": 2,
+  "note": "消耗【源】收【阴阳师】，提供 2 点【气】；可消耗【千纸鹤】召唤【式神】。"
+ }
+]
